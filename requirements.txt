@@ -17,7 +17,7 @@ mongoengine==0.18.2
 pycrypto==2.6.1
 pygobject==3.26.1
 pymongo==3.9.0
-pyxdg==0.25
+pyxdg==0.26
 SecretStorage==2.3.1
 six==1.12.0
 virtualenv==16.7.5
