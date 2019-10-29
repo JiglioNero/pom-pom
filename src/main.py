@@ -1,7 +1,7 @@
 #!flask/bin/python
 from flask import Flask
 from flask import request
-from .data import __init__ as Api
+from .data import weather_api as Api
 
 app = Flask(__name__)
 
@@ -25,7 +25,3 @@ def define_args(args):
     else:
         return {'lat': lat,
                 'lon': lon}
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
