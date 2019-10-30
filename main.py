@@ -1,7 +1,7 @@
 #!flask/bin/python
 from flask import Flask
 from flask import request
-from .data import weather_api as Api
+import weather_api as Api
 
 app = Flask(__name__)
 
